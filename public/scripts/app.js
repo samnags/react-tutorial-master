@@ -14,7 +14,7 @@ var CommentForm = React.createClass({
 render() {
   return (
     <div className="commentForm">
-    This is a comment form
+    
     </div>
   )
 }
@@ -24,11 +24,13 @@ var CommentList = React.createClass({
   render() {
     return (
       <div className="commentList">
-      This is a comment list
+        <Comment author="JK Rowling">This is a comment</Comment>
+        <Comment author="Michael Jordan">This is second comment</Comment>
       </div>
     )
   }
-})
+});
+
 
 var Comment = React.createClass({
   render() {
